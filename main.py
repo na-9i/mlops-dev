@@ -1,6 +1,9 @@
 import streamlit as st
+import pandas as pd
+import numpy as np
+import mlflow
+import json
+import requests
 
 
-st.set_page_config(
-    page_title="MLOps"
-)
+mlflow.set_tracking_uri("")
